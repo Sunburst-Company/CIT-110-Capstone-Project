@@ -9,7 +9,7 @@ namespace AmazingFlowers
     class Program
     // *********************************************************
     // Title Welcome to the World of Flowers
-    // Application Type Framework.NET, Console
+    // Application Type Framework.NET, Console Window
     // Description The purpose of my Application is to present the Amazing World of Flowers, and to help the user choose their favorites.
     // Donna Curiel
     // CIT 110
