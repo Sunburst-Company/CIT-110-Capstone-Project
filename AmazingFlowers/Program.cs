@@ -19,7 +19,6 @@ namespace AmazingFlowers
     {
         static void Main(string[] args)
         {
-
             DisplayOpeningScreen();
             DisplayMenu();
             DisplayClosingScreen();
