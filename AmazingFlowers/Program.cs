@@ -151,11 +151,11 @@ namespace AmazingFlowers
                 if (worldFlower.Name.ToUpper() == userWorldFlowerName.ToUpper())
                 {
                     Console.WriteLine(worldFlower.Name);
-                    Console.WriteLine("The height is, " + worldFlower.Height + @"""");
+                    Console.WriteLine("The height is " + worldFlower.Height + @"""");
                     //Console.WriteLine(worldFlower.CurrentBlossomSeason);
-                    Console.WriteLine("The blossom season is," + worldFlower.CurrentBlossomSeason);
+                    Console.WriteLine("The blossom season is " + worldFlower.CurrentBlossomSeason);
 
-                    Console.WriteLine("The petal color is, " + worldFlower.CurrentPetalColor);
+                    Console.WriteLine("The petal color is " + worldFlower.CurrentPetalColor);
                     if (worldFlower.Annual)
                     {
                         Console.WriteLine("This flower is an Annual");
@@ -242,7 +242,7 @@ namespace AmazingFlowers
         {
             string userWorldFlowerChoice;
 
-            DisplayHeader("Delete World Flower Information");
+            DisplayHeader("Delete the World Flower of Your Choice");
 
             //
             // get World Flower name from user
@@ -263,7 +263,7 @@ namespace AmazingFlowers
 
             foreach (WorldFlower worldFlower in worldFlowers)
             {
-                if (worldFlower.Name == userWorldFlowerChoice)
+                if (worldFlower.Name.ToLower() == userWorldFlowerChoice.ToLower())
                 {
                     worldFlowers.Remove(worldFlower);
                     worldFlowerFound = true;
