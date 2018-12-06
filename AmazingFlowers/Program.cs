@@ -10,11 +10,12 @@ namespace AmazingFlowers
     // *********************************************************
     // Title Welcome to the World of Flowers
     // Application Type Framework.NET, Console Window
-    // Description The purpose of my Application is to present the Amazing World of Flowers, and to help the user choose their favorites.
+    // Description The purpose of my Application is to present the Amazing World of Flowers,
+    // and to help the user choose their favorites.
     // Donna Curiel
     // CIT 110
     // Current Date 11-30-2018 
-    // Last Modified: 12/5/2018
+    // Last Modified: 12/6/2018
     // *********************************************************
     {
         static void Main(string[] args)
@@ -116,29 +117,6 @@ namespace AmazingFlowers
             Console.Write("Enter Name of the Flower you Would Like to see: ");
             userWorldFlowerName = Console.ReadLine();
 
-            /*switch (userWorldFlowerName)
-           {
-               case "A":
-               case "a":
-                   userWorldFlower = WorldFlower.Name();
-                   validResponse = true;
-                   break;
-               case "B":
-               case "b":
-                    = WorldFlower.();
-                   validResponse = true;
-                   break;
-               default: // Using default for validation:
-                   Console.WriteLine();
-                   Console.WriteLine("{0} is not a valid response. Please try again!", userWorldFlowerName);
-                   DisplayContinuePrompt();
-                   break;
-           }*/
-
-
-            // add World Flower object to list
-            //
-
             //
             // display World Flower info
             //
@@ -152,7 +130,6 @@ namespace AmazingFlowers
                 {
                     Console.WriteLine(worldFlower.Name);
                     Console.WriteLine("The height is " + worldFlower.Height + @"""");
-                    //Console.WriteLine(worldFlower.CurrentBlossomSeason);
                     Console.WriteLine("The blossom season is " + worldFlower.CurrentBlossomSeason);
 
                     Console.WriteLine("The petal color is " + worldFlower.CurrentPetalColor);
@@ -320,8 +297,7 @@ namespace AmazingFlowers
                 Console.WriteLine("\tB) Display World Flower Information");
                 Console.WriteLine("\tC) Display Get World Flower from User");
                 Console.WriteLine("\tD) Display Delete World Flower");
-                Console.WriteLine("\tE) ");
-                Console.WriteLine("\tF) Exit");
+                Console.WriteLine("\tE) Exit");
 
                 Console.Write("Enter Choice:");
                 menuChoice = Console.ReadLine();
@@ -356,14 +332,9 @@ namespace AmazingFlowers
 
                     case "E":
                     case "e":
-
-
-                        break;
-
-                    case "F":
-                    case "f":
                         exiting = true;
                         break;
+       
 
                     default:
                         break;
