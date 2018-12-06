@@ -13,7 +13,7 @@ namespace AmazingFlowers
     // Description The purpose of my Application is to present the Amazing World of Flowers,
     // and to help the user choose their favorites.
     // Donna Curiel
-    // CIT 110
+    // CIT 110 M-W 3:10
     // Current Date 11-30-2018 
     // Last Modified: 12/6/2018
     // *********************************************************
