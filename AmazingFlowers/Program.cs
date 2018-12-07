@@ -368,7 +368,7 @@ namespace AmazingFlowers
             Console.WriteLine("\t\tThanks for using the Wonderful World of Flowers Application.");
             Console.WriteLine();
 
-            Console.WriteLine("Press any key to exit.");
+            Console.WriteLine("\t\tPress any key to exit.");
             Console.ReadKey();
         }
 
@@ -378,7 +378,7 @@ namespace AmazingFlowers
         static void DisplayContinuePrompt()
         {
             Console.WriteLine();
-            Console.WriteLine("Press any key to continue.");
+            Console.WriteLine("\t\tPress any key to continue.");
             Console.ReadKey();
         }
 
